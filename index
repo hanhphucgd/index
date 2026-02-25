@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đang chuyển hướng...</title>
+
+    <!-- Tự động chuyển hướng sau 2 giây -->
+    <meta http-equiv="refresh" content="2; url=https://hanhphucpm.com">
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            padding-top: 100px;
+            background: #f5f5f5;
+        }
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Đang chuyển đến trang...</h2>
+        <p>Nếu không tự chuyển, bấm nút bên dưới</p>
+        <a href="https://hanhphucpm.com">Vào trang</a>
+    </div>
+</body>
+</html>
